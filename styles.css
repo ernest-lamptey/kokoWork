@@ -177,3 +177,21 @@ blockquote {
     text-align: center;
     text-decoration: none;
 }
+
+@media only screen  and (max-width: 480px) {
+    header {
+        flex-direction: column;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .coding-devices-img {
+        width: 90%
+    }
+
+    .intro-text {
+        font-size: 2rem;
+    }
+}
